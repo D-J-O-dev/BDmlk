@@ -5,24 +5,24 @@ const CONFIG = {
   persist: "session",            // "session" = progress resets when the tab is closed (survives refresh); "forever" = saved until Reset
   recipient: "MOLKA",            // shown on the boot screen
   name: "Molka",                 // shown in "Happy Birthday, ..."
-  music: "song/song.mp3",     // optional local file (never autoplays)
+  music: "song.mp3",     // optional local file (never autoplays)
   giftMessage: "I wanted to say THANK YOU for all the years we've been friends, u dont k how much this realtionship means to me. I dont think I can imagine a life without the tea molka be cooking. I WISH YOU A HAPPY BIRTHDAY FROM MY HEART ",
   bowSecret: "wtf chemask ",
   plushTaps: ["...", "...", "...", "...NIGGA RITH.", "...", "YA BRO....", "HETHA ISMOU TA7ARACH UR 18 "],
-  trashImage: "photos/image.png", // shown after "...except one thing."
+  trashImage: "image.png", // shown after "...except one thing."
   trashText: "ZEBLA",
   adminLines: ["SUBJECT: " + "MOLKA", "THREAT LEVEL: HIGH TO EXTREEEEM ", "KNOWN WEAKNESSES: FOOD ", "CLASSIFIED HABIT: WATCHING PPL DIE", "STATUS: CERTIFIED HOMIEEEEEEEE"],
   finalMessage: "I WANNA TELL YOU THAT UR SPECIAL AND I HOPE U NEVER STOP BEING YOU. WE'LL MEET ONE DAY.. HAVE A HAAPPY BIRTHDAY"
 };
 // type is a free label. image is optional (e.g. "assets/photo1.jpg"); a placeholder shows if missing.
 const files = [
-  { number: 1, title: "U said u wished I was in Tunisia",      type: "memory",       content: "to make photos w me well I wished ur here w me so I made it true", image: "photos/1.png"  },
-  { number: 2, title: "Well after that",        type: "inside joke",  content: "we went to a mountain thingy for some reason ",image: "photos/mount.png"  },
-  { number: 3, title: "WTF",     type: "photo",        content: "hmmm u gained sm weight ", image: "photos/boat.png" },
-  { number: 4, title: "then we went to ?",    type: "favorite thing", content: "Jnina... OK ? ", image: "photos/JnIna.png"  },
-  { number: 5, title: "BASKETBALL",  type: "quote",        content: "\"OFC METSWRIN M3A THE GOAT\"" , image: "photos/basket.png" },
-  { number: 6, title: "ohhhh yeh nostolgia", type: "achievement", content: "when I was in my prime ",image: "photos/arnold.png"  },
-  { number: 7, title: "hmmmmmm since when u drink ? ",  type: "thank you",    content: "IG..", image: "photos/last.png"  }   // finale; text is CONFIG.finalMessage
+  { number: 1, title: "U said u wished I was in Tunisia",      type: "memory",       content: "to make photos w me well I wished ur here w me so I made it true", image: "1.png"  },
+  { number: 2, title: "Well after that",        type: "inside joke",  content: "we went to a mountain thingy for some reason ",image: "mount.png"  },
+  { number: 3, title: "WTF",     type: "photo",        content: "hmmm u gained sm weight ", image: "boat.png" },
+  { number: 4, title: "then we went to ?",    type: "favorite thing", content: "Jnina... OK ? ", image: "JnIna.png"  },
+  { number: 5, title: "BASKETBALL",  type: "quote",        content: "\"OFC METSWRIN M3A THE GOAT\"" , image: "basket.png" },
+  { number: 6, title: "ohhhh yeh nostolgia", type: "achievement", content: "when I was in my prime ",image: "arnold.png"  },
+  { number: 7, title: "hmmmmmm since when u drink ? ",  type: "thank you",    content: "IG..", image: "last.png"  }   // finale; text is CONFIG.finalMessage
 ];
 // ===============================
 // END PERSONALIZE SECTION
